@@ -1,4 +1,4 @@
-# .SILENT:
+.SILENT:
 
 help:
 	echo

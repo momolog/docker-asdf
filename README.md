@@ -32,3 +32,7 @@ Beware: This can take long!
 ## run nginx
 
     docker run --name rails -p 80:80 -d momolog:rails-server
+
+# Next steps
+
+* separate things: https://itnext.io/docker-rails-puma-nginx-postgres-999cd8866b18
