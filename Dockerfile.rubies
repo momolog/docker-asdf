@@ -1,0 +1,4 @@
+FROM momolog:asdf
+
+RUN asdf install ruby 2.2.10
+RUN asdf install ruby 2.3.8
