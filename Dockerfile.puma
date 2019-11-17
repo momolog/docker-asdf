@@ -1,4 +1,0 @@
-FROM momolog:asdf-rubies
-
-RUN asdf local ruby 2.3.8
-RUN gem install puma

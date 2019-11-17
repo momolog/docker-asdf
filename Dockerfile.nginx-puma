@@ -1,0 +1,13 @@
+# nginx + puma
+
+FROM momolog:rubies
+
+USER root
+
+RUN apk add --update
+RUN apk add --no-cache nginx
+
+USER app
+
+RUN asdf local ruby 2.3.8
+RUN gem install puma
